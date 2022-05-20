@@ -1,0 +1,5 @@
+call cd C:/xampp/htdocs/pds/tensorflow-yolov4-tflite/env/Scripts 
+call activate.bat && cd C:/xampp/htdocs/pds/tensorflow-yolov4-tflite 
+call python detect.py --images ../pothole_image/pothole12.jpg --score 0.6 --output ../pothole_image
+call cd C:/xampp/htdocs/pds
+call rename "pothole_image/pothole11.jpgdetection1.png" "pothole11.jpg"
