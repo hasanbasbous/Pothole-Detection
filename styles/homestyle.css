@@ -1,0 +1,199 @@
+
+/***all sections*/
+*{ margin: 0;
+    padding:0;
+    box-sizing: border-box;
+ }
+ 
+ html{
+     background-color:#fff;
+     color:#555;
+     font-family: 'Lato','Arial',sans-serif;
+     font-size: 20px;
+     font-weight: 300;
+     text-rendering: optimizeLegibility
+ }
+ 
+ .row{
+     max-width: 1140px;
+     margin:0 auto;
+ }
+ 
+ 
+ section{
+ padding:80px 0;
+     
+     height: auto;
+ 
+ }
+ 
+ 
+ .box{
+     padding: 1%;
+     
+ }
+ /************/
+ 
+ 
+ /*HOMEPAGE*/
+ h1{ 
+     
+     font-weight: 300;
+     text-transform: uppercase;
+     margin-top: 1%;
+     margin-bottom: 5%;
+     color:#fff;
+     text-align: center;
+     font-size :290%;
+     word-spacing: 4px;
+     letter-spacing: 1px;
+     color: #e67e22;
+   
+ 
+ 
+ }
+ 
+ h2{
+     font-weight: 300;
+     text-transform: uppercase; 
+     font-size: 190%;
+     word-spacing: 2px;
+     text-align: center;
+     margin-bottom: 30px;
+     letter-spacing: 1px;
+     color: #fff;
+     
+    
+ }
+ 
+
+
+ 
+ 
+ header{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.3)) ,url(img/road.jpg);
+     height:100vh;
+     background-size: cover;
+     background-position: center;
+    }
+ 
+ 
+ 
+ .description{
+     position: absolute;
+     width:1140px;
+     top:35%;
+     left:50%;
+     transform: translate(-50%,-25%);
+ }
+ 
+ .logo{
+     height:100px;
+     width:auto;
+     float:left;
+     font-size: 50px;
+     letter-spacing: 1px;
+     color: #fff;
+     margin-top: 20px;
+     text-decoration: none;
+     font-style: italic;
+ }
+ 
+ .main-nav{
+     float:right;
+     list-style: none;
+      margin-top: 55px;
+     
+ }
+ 
+ .main-nav li{
+     display: inline-block;
+         margin-left: 40px;
+ }
+ 
+ 
+ .main-nav li a:link,
+ .main-nav li a:visited
+ {
+     padding: 8px 0;
+     color:#fff;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-size: 110%;
+     border-bottom: 2px solid transparent;
+     transition: border-bottom 0.2s;
+     
+ }
+ 
+ 
+ 
+ .main-nav li a:hover,
+ .main-nav li a:active {
+     border-bottom: 2px solid #e67e22;
+
+
+ }
+
+ /*******/
+
+
+ /****SIGN IN PAGE****/
+
+ .contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=password],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.goback{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.col1{
+    
+    width: 33%;
+    float: left;
+    position: relative;
+}
+
+.col2{
+    
+    width: 64%;
+    float: left;
+   
+}
+
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #000;
+    text-align: center;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+ /*******/
+
+ /****driver page****/
+
+ #map{
+     height: 500px;
+     width: 100%;
+ }
+ 
+ 
+ 
